@@ -3,7 +3,7 @@ This scripts install freeipa on CentOS 7 and one replica.
 
 It's important connection between CentOS 7 systems.
 
-# Usage (freeipa_master)
+# Usage (freeipa_master.py)
 Install Centos 7 base
 
 ```bash
@@ -13,6 +13,8 @@ chmod +x freeipa_master.py
 ```
 
 # Usage (ipareplica.py)
+
+```bash
 cd install-freeipa-python
 chmod +x ipareplica.py
 ./ipareplica.py
