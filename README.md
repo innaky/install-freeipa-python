@@ -1,7 +1,9 @@
-# install-freeipa-python
-This script automatic install freeipa on CentOS 7
+# FreeIPA Python
+This scripts install freeipa on CentOS 7 and one replica.
 
-# Usage
+It's important connection between CentOS 7 systems.
+
+# Usage (freeipa_master)
 Install Centos 7 base
 
 ```bash
@@ -9,6 +11,13 @@ git clone https://github.com/innaky/install-freeipa-python.git
 chmod +x freeipa_master.py
 ./freeipa_master.py
 ```
+
+# Usage (ipareplica.py)
+cd install-freeipa-python
+chmod +x ipareplica.py
+./ipareplica.py
+```
+
 # What is FreeIPA?
 FreeIPA is an integrated security information management solution
 combining Linux (Fedora), 389 Directory Server, MIT Kerberos, NTP,
