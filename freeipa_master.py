@@ -105,7 +105,7 @@ def reverse_zone(ipv4):
 ## main
 #
 
-check_root()
+checkroot()
 
 print("##################### Warning! ##################\n")
 print("Run this script only in a new installation of CentOS 7.\n")
